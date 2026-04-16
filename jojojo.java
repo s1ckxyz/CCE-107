@@ -66,7 +66,7 @@ public class jojojo {
                 if (hotel[fl][r] == 0) {
 
                     int confirm = JOptionPane.showConfirmDialog(null, 
-                            "Are you sure you want to Check-In to Floor " + (f + 1) + " Room " + (r + 1) + "?", 
+                            "Are you sure you want to Check-In to Floor " + (fl + 1) + " Room " + (r + 1) + "?", 
                             "Confirm Check-In", 
                             JOptionPane.YES_NO_OPTION);
 
